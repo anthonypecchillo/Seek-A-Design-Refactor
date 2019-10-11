@@ -1,0 +1,9 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  height: 2265px;
+  margin: 0;
+  overscroll-behavior: none;
+}

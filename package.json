@@ -1,0 +1,60 @@
+{
+  "name": "kdb-v3",
+  "version": "1.0.0",
+  "description": "Governors' Climate and Forests Task Force Knowledge Database Web App",
+  "main": "server/index.js",
+  "scripts": {
+    "react-dev": "webpack -d --watch",
+    "start": "node server/index.js",
+    "start-dev": "nodemon server/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anthonypecchillo/kdb-v3.git"
+  },
+  "author": "Anthony Pecchillo (anthonypecchillo@gmail.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anthonypecchillo/kdb-v3/issues"
+  },
+  "homepage": "https://github.com/anthonypecchillo/kdb-v3#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "date-fns": "^1.30.1",
+    "express": "^4.17.1",
+    "fusioncharts": "^3.13.5-sr.1",
+    "fusionmaps": "^3.13.1-sr.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-fusioncharts": "^3.0.1",
+    "react-router-dom": "^5.0.1",
+    "styled-components": "^4.3.2",
+    "webpack": "^4.36.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.1.0",
+    "enzyme": "^3.10.0",
+    "enzyme-adapter-react-16": "^1.14.0",
+    "eslint": "^6.1.0",
+    "eslint-config-airbnb": "^17.1.1",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.14.2",
+    "faker": "^4.1.0",
+    "file-loader": "^4.1.0",
+    "html-webpack-plugin": "^3.2.0",
+    "jest": "^24.8.0",
+    "jest-enzyme": "^7.0.2",
+    "nodemon": "^1.19.1",
+    "path": "^0.12.7",
+    "react-test-renderer": "^16.8.6",
+    "style-loader": "^0.23.1",
+    "webpack-cli": "^3.3.6"
+  }
+}
