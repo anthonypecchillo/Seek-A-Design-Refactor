@@ -2,8 +2,53 @@
   box-sizing: border-box;
 }
 
-html, body, #root {
-  height: 2265px;
+/* TODO: Add root-level CSS variables */
+/* :root {
+  --yellow: #ffc600;
+  --black: #272727;
+} */
+
+@font-face {
+  font-family: 'AlexandriaFLF';
+  src: url('./assets/fonts/AlexandriaFLF/AlexandriaFLF.ttf.woff') format('woff'),
+       url('./assets/fonts/AlexandriaFLF/AlexandriaFLF.ttf.svg#AlexandriaFLF') format('svg'),
+       url('./assets/fonts/AlexandriaFLF/AlexandriaFLF.ttf.eot'),
+       url('./assets/fonts/AlexandriaFLF/AlexandriaFLF.ttf.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'AlexandriaFLF-Bold';
+  src: url('./assets/fonts/AlexandriaFLF-Bold/AlexandriaFLF-Bold.ttf.woff') format('woff'),
+       url('./assets/fonts/AlexandriaFLF-Bold/AlexandriaFLF-Bold.ttf.svg#AlexandriaFLF-Bold') format('svg'),
+       url('./assets/fonts/AlexandriaFLF-Bold/AlexandriaFLF-Bold.ttf.eot'),
+       url('./assets/fonts/AlexandriaFLF-Bold/AlexandriaFLF-Bold.ttf.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ChandelleDisplay';
+  src: url('./assets/fonts/ChandelleDisplay/ChandelleDisplay.ttf.woff') format('woff'),
+       url('./assets/fonts/ChandelleDisplay/ChandelleDisplay.ttf.svg#ChandelleDisplay') format('svg'),
+       url('./assets/fonts/ChandelleDisplay/ChandelleDisplay.ttf.eot'),
+       url('./assets/fonts/ChandelleDisplay/ChandelleDisplay.ttf.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+html, body, #root, .app {
+  height: 100%;
+}
+
+body {
+  width: 100%;
   margin: 0;
-  overscroll-behavior: none;
+  padding: 0;
+  background: radial-gradient(rgba(255, 255, 255, 0.8), transparent),
+              linear-gradient(to bottom, rgb(195, 195, 195) 10%, white 90%);
+  /* TODO: Solve background-image problem! */
+  /* background-image: url('./assets/background.svg'); */
 }

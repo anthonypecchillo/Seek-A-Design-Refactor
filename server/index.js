@@ -1,3 +1,8 @@
+/**
+ * Copyright 2019-present GCF Task Force. All Rights Reserved.
+ */
+
+
 const express = require('express');
 // const bodyParser = require('body-parser');
 const path = require('path');
