@@ -1,7 +1,7 @@
 {
-  "name": "kdb-v3",
+  "name": "Seek-A-Design-Refactor",
   "version": "1.0.0",
-  "description": "Governors' Climate and Forests Task Force Knowledge Database Web App",
+  "description": "Seek-A-Design: Graphic Design Business Portfolio Site",
   "main": "server/index.js",
   "scripts": {
     "react-dev": "webpack -d --watch",
@@ -11,23 +11,21 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/anthonypecchillo/kdb-v3.git"
+    "url": "git+https://github.com/anthonypecchillo/Seek-A-Design-Refactor.git"
   },
   "author": "Anthony Pecchillo (anthonypecchillo@gmail.com)",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/anthonypecchillo/kdb-v3/issues"
+    "url": "https://github.com/anthonypecchillo/Seek-A-Design-Refactor"
   },
-  "homepage": "https://github.com/anthonypecchillo/kdb-v3#readme",
+  "homepage": "https://github.com/anthonypecchillo/Seek-A-Design-Refactor#readme",
   "dependencies": {
     "body-parser": "^1.19.0",
     "date-fns": "^1.30.1",
     "express": "^4.17.1",
-    "fusioncharts": "^3.13.5-sr.1",
-    "fusionmaps": "^3.13.1-sr.1",
+    "jquery": "^3.4.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-fusioncharts": "^3.0.1",
     "react-router-dom": "^5.0.1",
     "styled-components": "^4.3.2",
     "webpack": "^4.36.1"
