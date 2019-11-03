@@ -12,9 +12,18 @@ const ReviewListStyled = styled.div`
   grid-column: 2/3;
   grid-row: 2/3;
 
-  background-color: blue;
   height: 100%;
   overflow-y: scroll;
+
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+  ::-webkit-scrollbar-track {
+    border: 1px solid rgb(87, 11, 95);
+  }
+  ::-webkit-scrollbar-thumb {
+    background: rgb(87, 11, 95);
+  }
 `;
 
 const ReviewList = ({ reviews }) => (
