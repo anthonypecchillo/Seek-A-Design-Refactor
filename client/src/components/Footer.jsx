@@ -7,9 +7,9 @@ import styled from 'styled-components';
 
 const Footer = styled.div `
   grid-area: footer;
-  
+
   display: grid;
-  grid-template-columns: 6fr 1fr;
+  grid-template-columns: 5fr auto;
   grid-template-areas: ". socialicons";
 `;
 
