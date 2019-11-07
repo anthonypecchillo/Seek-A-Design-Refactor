@@ -15,6 +15,9 @@ import Home from './Home.jsx';
 import NavBar from './NavBar.jsx';
 import Projects from './Projects.jsx';
 import UnderConstruction from './UnderConstruction.jsx';
+import WeddingInvitations from './WeddingInvitations.jsx';
+import OccasionInvitations from './OccasionInvitations.jsx';
+import OtherGoodies from './OtherGoodies.jsx';
 
 import LogoURL from '../../dist/assets/images/SeekADesign_VectorLogo.svg';
 
@@ -82,6 +85,9 @@ const Main = () => (
       <Route path="/projects" component={Projects} />
       <Route path="/about" component={About} />
       <Route path="/contact" component={Contact} />
+      <Route path="/weddinginvitations" component={WeddingInvitations} />
+      <Route path="/occasioninvitations" component={OccasionInvitations} />
+      <Route path="/othergoodies" component={OtherGoodies} />
       <Route component={FourZeroFour} />
     </Switch>
   </AppGrid>
