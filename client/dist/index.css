@@ -40,6 +40,10 @@
 
 
 html, body, #root, .app {
+  background: radial-gradient(rgba(255, 255, 255, 0.8), transparent),
+              linear-gradient(to bottom, rgb(195, 195, 195) 10%, white 90%);
+  /* TODO: Solve background-image problem! */
+  /* background-image: url('./assets/background.svg'); */
   height: 100%;
 }
 
@@ -47,8 +51,4 @@ body {
   width: 100%;
   margin: 0;
   padding: 0;
-  background: radial-gradient(rgba(255, 255, 255, 0.8), transparent),
-              linear-gradient(to bottom, rgb(195, 195, 195) 10%, white 90%);
-  /* TODO: Solve background-image problem! */
-  /* background-image: url('./assets/background.svg'); */
 }

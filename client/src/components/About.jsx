@@ -53,7 +53,6 @@ const AboutTitle = styled.div`
 
   align-self: end;
   color: rgb(87, 11, 95);
-  align-self: end;
   display: block;
   font-family: AlexandriaFLF-Bold;
   font-size: 32px;
@@ -70,7 +69,7 @@ const ReviewsTitle = styled.h1`
 
   align-self: center;
   color: rgb(87, 11, 95);
-  align-self: center;
+  text-align: center;
   font-family: ChandelleDisplay;
 `;
 
